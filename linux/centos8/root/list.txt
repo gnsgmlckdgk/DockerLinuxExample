@@ -1,0 +1,8 @@
+total 32
+drwxr-xr-x 7 root root   224 Jul  2 00:02 .
+drwxr-xr-x 1 root root  4096 Jul  1 23:41 ..
+-rw------- 1 root root  3168 Jul  1 12:33 .bash_history
+-rw-r--r-- 1 root root   209 Jul  1 23:28 .bashrc
+-rw-r--r-- 1 root root  6148 Jun 15 13:03 .DS_Store
+-rw-r--r-- 1 root root     0 Jul  2 00:02 list.txt
+-rw------- 1 root root 11774 Jun 15 12:36 .viminfo

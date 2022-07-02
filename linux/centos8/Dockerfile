@@ -22,6 +22,8 @@ RUN dnf install glibc-langpack-ko -y
 RUN dnf install python3 -y
 # clear 명령어 패키지 설치
 RUN dnf install ncurses -y
+# pstree 명령어 설치
+RUN dnf -y install psmisc
 
 EXPOSE 80
 

@@ -3,6 +3,7 @@ docker run --name [컨터에너명] -v [볼륨호스트:볼륨도커서버] --pr
 
 # 이미지 컨테이너 올리기
 docker run --privileged --name centos8 -d  centos8_min
+docker run --name centos8_base -v "/Users/hch/Files/Dev/Docker/Edu/linux/centos8/root:/root" --privileged -d centos8:base
 docker run --name centos_edu -v "/Users/hch/Files/Dev/Docker/Edu/linux/centos8/root:/root" --privileged -d centos_edu:latest /usr/sbin/init
 
 # 컨터이너에 접근
