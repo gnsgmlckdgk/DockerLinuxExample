@@ -1,0 +1,5 @@
+[openjdk11-repo]
+name=openjdk11 repo
+baseurl=file:///root/data/openjdk11
+enabled=1
+gpgcheck=0
